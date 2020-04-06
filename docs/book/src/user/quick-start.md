@@ -164,6 +164,7 @@ For more information about authorization, AAD, or requirements for Azure, visit 
 export AZURE_SUBSCRIPTION_ID=<SubscriptionId>
 
 # Create an Azure Service Principal and paste the output here
+export AZURE_SUBSCRIPTION_ID=<SubscriptionId>
 export AZURE_TENANT_ID=<Tenant>
 export AZURE_CLIENT_ID=<AppId>
 export AZURE_CLIENT_SECRET=<Password>
