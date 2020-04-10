@@ -7,7 +7,6 @@ In this tutorial we'll cover the basics of how to use Cluster API to create one 
 ### Common Prerequisites
 
 - Install and setup [kubectl] in your local environment
-- Management cluster 
 
 ### Install and/or configure a kubernetes cluster
 
