@@ -7,6 +7,7 @@ In this tutorial we'll cover the basics of how to use Cluster API to create one 
 ### Common Prerequisites
 
 - Install and setup [kubectl] in your local environment
+- Management cluster 
 
 ### Install and/or configure a kubernetes cluster
 
@@ -21,7 +22,7 @@ Choose one of the options below:
 
 1. **Existing Management Cluster**
 
-For production use-cases a "real" Kubernetes cluster should be used with appropriate backup and DR policies and procedures in place.
+For production use-cases a "real" Kubernetes cluster should be used with appropriate backup and DR policies and procedures in place. The Kubernetes cluster must be at least v1.16+. 
 
 ```bash
 export KUBECONFIG=<...>
@@ -164,7 +165,6 @@ For more information about authorization, AAD, or requirements for Azure, visit 
 export AZURE_SUBSCRIPTION_ID=<SubscriptionId>
 
 # Create an Azure Service Principal and paste the output here
-export AZURE_SUBSCRIPTION_ID=<SubscriptionId>
 export AZURE_TENANT_ID=<Tenant>
 export AZURE_CLIENT_ID=<AppId>
 export AZURE_CLIENT_SECRET=<Password>
